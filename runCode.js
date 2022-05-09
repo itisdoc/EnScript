@@ -1,5 +1,6 @@
 let newLines = []
     var args = process.argv[2]
+if (!args.includes('.en')) throw new Error('you must provide a .en file')
 const lineByLine = require('n-readlines');
 const liner = new lineByLine(args);
  
@@ -11,7 +12,7 @@ while (line = liner.next()) {
   if (lineString.includes('//') || lineString == "") return
    if (!lineString.includes(';')) {
    if (!lineString.includes('{') || !lineString.includes('}')) {
-     throw new Error('(line ' + (lineNumber + 1) + ') You need to add a ";" at the end of every line (except for ifs, fors, functions, etc)')
+     throw new Error('(line ' + (lineNumber + 1) + ') You need to add a ";" at the end of every line!')
    } 
    } else {
      if (lineString.includes('import')) {
