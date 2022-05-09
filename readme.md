@@ -1,5 +1,5 @@
 # ![EnScript](https://i.ibb.co/CmDrt0V/image.png)
->[demo](#) | [download](https://github.com/trisn0w/enscript/releases/latest)
+>[demo](#) | [download](https://github.com/TriSn0w/EnScript/raw/main/runCode.js)
 
 ## Welcome to EnScript!
 This is a Easy-to-use Node.js superset (hence the name, "EnScript") that I made so I can test my Node skils. You can use normal Node with it aswell.
