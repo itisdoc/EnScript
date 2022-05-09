@@ -18,9 +18,9 @@ while (line = liner.next()) { // while there is another line
    } 
    } else {
      if (lineString.includes('import')) {
-       newLines.push(`require(${lineString.replace('import ', '').replace('\'', '').replace('\'', '')})`)  
+       newLines.push(`${lineString.replace('import ', 'require(') + "')"}`)  
       } else if (lineString.includes('log ')) {
-        newLines.push(`console.log(${lineString.replace('log ', '').replace('log ', '').replace(';', '')})` + ';')
+        newLines.push(`console.log(${lineString.replace('log ', 'console.log(').replace(';', '')})` + ');')
       } else {
       newLines.push(lineString)
       }
