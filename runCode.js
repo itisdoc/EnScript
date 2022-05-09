@@ -14,13 +14,13 @@ while (line = liner.next()) { // while there is another line
   } else {
    if (!lineString.includes(';')) {
    if (!lineString.includes('{') || !lineString.includes('}')) {
-     throw new Error('(line ' + (lineNumber + 1) + ') You need to add a ";" at the end of every line!')
+     throw new Error('(line ' + (lineNumber + 1) + ') You need to add a ";" at the end of every line!\n\n' + lineString)
    } 
    } else {
      if (lineString.includes('import')) {
-       newLines.push(`${lineString.replace('import ', 'require(') + "')"}`)  
+       newLines.push(`${lineString.replace('import ', 'require(\'').replace(';', '') + "');"}`)  
       } else if (lineString.includes('log ')) {
-        newLines.push(`console.log(${lineString.replace('log ', 'console.log(').replace(';', '')})` + ');')
+        newLines.push(`${lineString.replace('log ', 'console.log(').replace(';', '')}` + ');')
       } else {
       newLines.push(lineString)
       }
