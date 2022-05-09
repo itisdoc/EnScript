@@ -1,0 +1,8 @@
+log 'Welcome to EnScript! This is logging in console';
+log 'wow';
+// comment test;
+var discord = require('discord.js');
+function testing() {;
+log 'hello!';
+};
+testing();
