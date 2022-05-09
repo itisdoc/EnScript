@@ -1,1 +1,1 @@
-run = "node runCode index.en"
+run = "node runCode test.en"
