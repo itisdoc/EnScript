@@ -11,7 +11,7 @@ while (line = liner.next()) {
   if (lineString.includes('//') || lineString == "") return
    if (!lineString.includes(';')) {
    if (!lineString.includes('{') || !lineString.includes('}')) {
-     throw new Error('(line ' + lineNumber + ') You need to add a ";" at the end of every line (except for ifs, fors, functions, etc)')
+     throw new Error('(line ' + (lineNumber + 1) + ') You need to add a ";" at the end of every line (except for ifs, fors, functions, etc)')
    } 
    } else {
      if (lineString.includes('import')) {
