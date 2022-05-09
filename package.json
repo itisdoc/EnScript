@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/TriSn0w/EnScript/issues"
   },
-  "homepage": "https://github.com/TriSn0w/EnScript#readme"
+  "homepage": "https://github.com/TriSn0w/EnScript#readme",
+  "dependencies": {
+    "n-readlines": "^1.0.1"
+  }
 }
