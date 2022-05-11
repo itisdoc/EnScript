@@ -36,7 +36,7 @@ Also, notice how we added the `;` symbol into there too. Keep that in mind while
 
 Here is another example, with functions.
 ```js
-function test() {;
+function test() {
 log 'Wowie!';
 };
 test();      
