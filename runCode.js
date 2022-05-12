@@ -31,7 +31,7 @@ newLines.push(`${lineString.replace('env(\'', 'process.env.').replace("'", '').r
      } else if (lineString.includes(';') && lineString.includes('`')) {
        newLines.push(lineString.replace(';', ''));
      }
-   } else {
+    else {
       newLines.push(lineString)
       }
      lineNumber++;
