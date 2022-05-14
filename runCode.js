@@ -1,5 +1,7 @@
 /*
 EnScript is/was made by TriSn0w(gunner) in May of 2022. You are allowed to use this script for learning purposes, but don't advertise it as your own.
+
+Thanks to the contributors for there help: @Aidan-The-Dev
 */
 let newLines = []
     var args = process.argv[2] // gets file name from ClI command
