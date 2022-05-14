@@ -17,7 +17,7 @@ while (line = liner.next()) { // while there is another line
   } else {
    if (!lineString.includes(';')) {
    if (!lineString.includes('{') || !lineString.includes('}')) {
-     throw new Error('(line ' + (lineNumber + 3) + ') You need to add a ";" at the end of every line!\n\n' + lineString)
+     throw new SyntaxError('(line ' + (lineNumber + 3) + ') You need to add a ";" at the end of every line!\n\n' + lineString)
    } else {
      newLines.push(lineString)
    }
