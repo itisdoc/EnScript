@@ -5,7 +5,7 @@ Thanks to the contributors for there help: @Aidan-The-Dev
 */
 let newLines = []
     var args = process.argv[2] // gets file name from ClI command
-if (!args.includes('.en')) throw new Error('you must provide a .en file') // if file name does not have a extension of ".en", throw a error
+if (!args.endsWith('.en')) throw new Error('you must provide a .en file') // if file name does not have a extension of ".en", throw a error
 const lineByLine = require('n-readlines');
 const liner = new lineByLine(args); // setup line reader
  
@@ -14,7 +14,7 @@ let lineNumber = 0;
  
 while (line = liner.next()) { // while there is another line
   let lineString = line.toString('ascii') // make line buffer into ascii string
-  if (lineString.includes('//') || lineString == "") { // if 
+  if (lineString.includes('!!') || lineString == "") { // if 
       // dont do nothing
   } else {
    if (!lineString.includes(';')) {
