@@ -13,16 +13,9 @@ This is a Easy-to-use Node.js superset (hence the name, "EnScript") that I made 
  <br>  
 3. Go to the path of both files and run this code in the terminal
 
-```js
-node [name-of-RunCode-File] [name-Of-En-File]
+```sh
+node runCode.js [name-Of-En-File]
 ```
-
-## The 2 rules of EnScript
-To make sure there are no errors in your EnScript project, follow these 2 rules.
-
-1. Always have `;` at the end of a line. This makes interpreting lines easier (somehow :sweat_smile:).
-2. (because of a bug) No empty lines.
-
 
 ## Syntax / Examples
 Here is an example of console logging (the famous "Hello World!" one)
@@ -39,6 +32,7 @@ Here is another example, with functions.
 function test() {
 log 'Wowie!';
 };
+
 test();      
 ```
 
@@ -47,17 +41,20 @@ Now, see how there is a lot of the character `;`? It helps the interpreter know 
 Let's do one more example. A Discord bot!
 
 ```js
-// this code has not been tested by us, but it should work!
-var Discord = require('discord.js');
+!! this code has been tested by us, and should work!
+var Discord = import discord.js;
 var client = new Discord.Client();
+
 client.on('ready', () => {;
   log `Ready as ${client.user.username}`;
 });
+
 client.on('message', (message) => {;
   if (message.content == "ping") {;
-    message.reply('Pong!')
+    message.reply('Pong!');
   };
 });
+
 client.login('YOUR_TOKEN_HERE');
 ```
 This code seems a little different than Node.js, but it really isn't that different.
