@@ -1,6 +1,6 @@
 log 'Welcome to EnScript! This is logging in console';
 log 'wow';
-// comment test;
+!! comment test;
 function testing() {;
 log 'hello!';
 };
