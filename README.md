@@ -1,4 +1,4 @@
-# <a href="https://imgbb.com/"><img src="https://i.ibb.co/QY7Ggv0/costume3-1-1.png" alt="costume3-1-1" border="0" /></a>
+# ![EnScript](https://i.ibb.co/wYGHbkD/d9f6e998c492ad14f709d41ed1715b56.png)
 >[demo](#) | [download](https://github.com/trisn0w/enscript/releases/latest)
 
 ## Welcome to EnScript!
