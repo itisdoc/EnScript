@@ -54,7 +54,7 @@ eval(newLines.join(" "))
 } catch(err) {
   console.log(err)
 }
-} else if (args.endsWith('.en.native')) {
+} else if (args.endsWith('.ene')) {
   const lineByLine = require('n-readlines');
 const liner = new lineByLine(args); // setup line reader
  
