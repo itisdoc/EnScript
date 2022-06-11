@@ -1,5 +1,5 @@
 # ![EnScript](https://i.ibb.co/wYGHbkD/d9f6e998c492ad14f709d41ed1715b56.png)
->[demo](#) | [download](https://github.com/trisn0w/enscript/releases/latest)
+>[NEW! Pages](https://github.com/TriSn0w/EnScript/wiki/EnScript-Pages) | [download](https://github.com/trisn0w/enscript/releases/latest)
 
 ## Welcome to EnScript!
 This is a Easy-to-use Node.js superset (hence the name, "EnScript") that I made for Node beginners, and people that want a different type of Node.js. You can use normal Node with it aswell.
@@ -10,8 +10,8 @@ This is a Easy-to-use Node.js superset (hence the name, "EnScript") that I made 
 Comparison between the two:
 | File Extension | Pros | Cons |
 |----------------|----------|------|
-|`.en` | - More like a seperate language than a superset | May be confusing at first |
-|`.en.native` | - More like a superset </br>- Has better JavaScript support</br>- Most syntax is removed so you can use plain JavaScript along with EnScript | May not have a lot of backwards compatibility |
+|`.en` | - More like a seperate language than a superset | May be confusing at first</br></br>Does not have backwards compatibility with `v1.1` |
+|`.en.native` | - More like a superset </br>- Has better JavaScript support</br>- Most syntax is removed so you can use plain JavaScript along with EnScript |  Does not have backwards compatibility with `v1.1` |
 
 ## Installation/Usage
 1. Download the runCode.js
