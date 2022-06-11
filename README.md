@@ -5,7 +5,7 @@
 This is a Easy-to-use Node.js superset (hence the name, "EnScript") that I made for Node beginners, and people that want a different type of Node.js. You can use normal Node with it aswell.
 
 ## `.en` VS `.en.native`
-**Note**: This is for the v2.0 update. If you want this feature ASAP, then download the [PTB](runCode.js)
+**Note**: This is for the v2.0 update. If you want this feature ASAP, then get the [release](https://github.com/TriSn0w/EnScript/releases)
 
 Comparison between the two:
 | File Extension | Pros | Cons |
