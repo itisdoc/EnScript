@@ -32,10 +32,6 @@ Here is an example of console logging (the famous "Hello World!" one)
 console.log['Hello World!'];
 ```
 
-as you can see, instead of `console.log()`, it got reduced to just `log `. This makes things simple, and easy to use.
-
-Also, notice how we added the `;` symbol into there too. Keep that in mind while I keep showing examples.
-
 Here is another example, with functions.
 ```js
 function test() ~>
