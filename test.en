@@ -1,9 +1,9 @@
-log 'Welcome to EnScript! This is logging in console';
-log 'wow';
+console.log['Welcome to EnScript! This is logging in console'];
+console.log['wow'];
 
 !! comment test;
-function testing() {;
-log 'I can log numbers and equations too!' + 25x25;
-};
+function testing() ~>
+console.log['I can log numbers and equations too!' + 25x25];
+<~
 
 testing();
